@@ -11,3 +11,33 @@
     display: flex;
     justify-content:space-around;
 }
+.nav__notification{
+    background-color: tomato;
+    border-radius: 50%;
+    padding:5px;
+    height: 5px;
+    display: flex;
+    width:11px;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    color:white;
+    font-size:12px;
+    left:11px;
+    bottom:12px;
+}
+.nav__link{
+    position: relative;
+}
+.nav__dot{
+    background-color: tomato;
+    border-radius: 50%;
+    padding:2px;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:24px;
+    bottom:20px;
+}
