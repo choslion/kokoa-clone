@@ -1,0 +1,16 @@
+
+.settings__setting {
+    padding:15px 0;
+    font-size:18px;
+    font-weight: 600;
+    display:flex;
+    justify-content: space-between;
+}
+.settings__setting i {
+    margin-right: 12px;
+    opacity: 0.8;
+}
+.settings__setting-colunm:last-child{
+    opacity:0.5;
+    font-size:18px;
+}

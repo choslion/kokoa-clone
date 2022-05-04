@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - kokoaTalk</title>
+    <title>More - kokoaTalk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -22,32 +22,47 @@
             <i class="fas fa-bolt"></i>
         </div>
     </div>
-    <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icons">
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <span class="alt-header__title">Settings</span>
+        </div>
+        <div class="alt-header__column">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fab fa-rocketchat"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
         </div>
     </header>
-    <main class="friends-screen">
-         <div class="user-component">
-            <div class="user-component__column">
-                <a href="chat.html">
-                <img class="user-component__avatar user-component__avatar--xs" src="screenshots/taeg.jpg" alt="avartar">
-                <div class="user-component__text">
-                <h4 class="user-component__title user-component__title--font-weight">검은심장</h4>
-                <h5 class="user-component__subtitle user-component__subtitle--font-weight">형 언제와요 죽통 갈기기 전에 얼른와요</h5>
-                </a>
+    <main class="main-screen">
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <div class="settings__setting-colunm">
+                <i class="fas fa-bullhorn"></i>
+                <span>Notices</span>
             </div>
+            <div class="settings__setting-colunm">
+
             </div>
-            <div class="user-component__column">
-                <div>21:22</div>
-                <div class="user-component__column-right">1</div>          
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-colunm">
+                <i class="fas fa-flask"></i>
+                <span>Kokoa Lab</span>
             </div>
-        </div>
-        </div>
+                <div class="settings__setting-colunm">
+
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-colunm">
+                <i class="fas fa-server"></i>
+                <span>Version</span>
+                </div>
+                <div class="settings__setting-colunm">
+                    Latest Version
+                </div>
+            </li>
+        </ul>
     </main>
     <nav class="nav">
         <ul class="nav__ul">
@@ -56,7 +71,7 @@
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification">1</span>
-                    <i class="fas fa-comment-dots fa-lg"></i></a></li>
+                    <i class="fab fa-rocketchat fa-lg"></i></a></li>
             <li class="nav__btn">
                 <a class="nav__link" href="find.html"><i class="fas fa-search fa-lg"></i></a></li>
             <li class="nav__btn">
